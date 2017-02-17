@@ -32,7 +32,7 @@ $task = 'select * from names';
 $taskto = mysqli_query($link, $task);
 
 while($row = mysqli_fetch_array($taskto)) {
-echo "<div><a href='". $row['filename']. "'>Запись</a></div>";	
+echo "<div><a href='". $row['filename']. "'>". $row['name']. "</a></div>";	
 }
 
 ?>

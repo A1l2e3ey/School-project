@@ -10,8 +10,9 @@
 require 'connection.php';
 
 $text = $_REQUEST['text'];
-
 $text = str_replace("\n","<br>", $text);
+
+$textname = $_REQUEST['textname'];
 
 $name = array ();
 
@@ -25,7 +26,7 @@ break;
 }
 
 $insert_sql = "INSERT INTO names (name, filename)" .
-        "VALUES ('{}', '{$namefile}');";
+        "VALUES ('{$textname}', '{$namefile}');";
 
 $result = mysqli_query($link, $insert_sql)
     or die(mysql_error());
