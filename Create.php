@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
 <title>Create</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -11,6 +10,8 @@
 require 'connection.php';
 
 $text = $_REQUEST['text'];
+
+$text = str_replace("\n","<br>", $text);
 
 $name = array ();
 
