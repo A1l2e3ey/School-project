@@ -62,6 +62,30 @@ fwrite($fl, '<html>
 fclose($fl);
 
 ?>
-<div>Запись была успешно создана, вы можете перейти во вкладку "Все записи" для просмотра.</div>
+<div class="header">
+<div class="image">
+<a href="index.html">*Будет картинка-ссылка<br> на главную страницу*</a>
+</div>
+<div class="files">
+<a href="Allfiles.php">Все записи</a>
+</div>
+</div>
+<div class="menu">
+<ul>
+<li><a href="Comand.html">Команда</a></li>
+<li><a href="Idea.html">Идеология</a></li>
+<li><a href="Add.html">Добавить запись</a></li>
+</ul>
+</div>
+<div class="mainbody">
+<div>
+Запись была создана, чтобы просмотреть ее, перейдите во вкладку "Все записи".
+</div>
+</div>
+<div class="footer">
+<div>
+© 2017 ФНИЦ "Кристаллография и фотоника" | НИЦ "Курчатовский институт" 
+</div>
+</div>
 </body>
 </html>
