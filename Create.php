@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <title>Create</title>
@@ -47,7 +47,7 @@ fwrite($fl, '<html>
 </div>
 <div class="menu">
 <ul>
-<li><a href="../Comand.html">Команда</a></li>
+<li><a href="../Comand.php">Команда</a></li>
 <li><a href="../Idea.html">Идеология</a></li>
 <li><a href="../Add.html">Добавить запись</a></li>
 </ul>
@@ -74,7 +74,7 @@ fclose($fl);
 </div>
 <div class="menu">
 <ul>
-<li><a href="Comand.html">Команда</a></li>
+<li><a href="Comand.php">Команда</a></li>
 <li><a href="Idea.html">Идеология</a></li>
 <li><a href="Add.html">Добавить запись</a></li>
 </ul>

@@ -15,7 +15,7 @@
 </div>
 <div class="menu">
 <ul>
-<li><a href="Comand.html">Команда</a></li>
+<li><a href="Comand.php">Команда</a></li>
 <li><a href="Idea.html">Идеология</a></li>
 <li><a href="Add.html">Добавить запись</a></li>
 </ul>

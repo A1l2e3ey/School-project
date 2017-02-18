@@ -1,3 +1,43 @@
+table{
+	width: 100%;
+	margin-left: 20px;
+}
+td{
+	border-bottom: 1px solid #D0D0D0
+}
+.comand{
+	margin-top: 30px;
+	margin-left:10px;
+	margin-bottom: 30px;
+	float: left;
+}
+.comandpic{
+float: left;
+}
+.rob{
+	float: left;
+	margin-left: 40px;
+}
+img{
+		border-radius: 100px;
+}
+.maintext{
+	font-size: 15pt;
+	color: grey;
+}
+.name{
+	font-size: 20pt;
+}
+.task{
+	font-size: 17pt;
+	color: grey;
+}
+.comandtext{
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+	
+}
 li a {
 	display: block;
 	text-align: center;
@@ -60,11 +100,14 @@ ul{
 	border-right: #D0D0D0 1px solid;
 }
 .mainbody{
+	width: 100%;
 	height: 600px;
 	font-size: 20pt;
 	text-align: center;
+	float: left;
 }
 .footer {
+	float: left;
 	border-top: #D0D0D0 1px solid;
 	height: 55px;
 	width: 100%;
