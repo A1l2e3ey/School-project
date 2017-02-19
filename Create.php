@@ -1,6 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <title>Create</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -8,6 +9,8 @@
 <?php
 
 require 'connection.php';
+
+mysqli_query($link, "SET NAMES utf8");
 
 $text = $_REQUEST['text'];
 $text = str_replace("\n","<br>", $text);
